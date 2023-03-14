@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red hat display";
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  justify-content: center;
+}
+
+h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  margin-top: 1rem;
+}
+
+.card {
+ background-color: hsl(225, 100%, 98%);
+ max-width: 30rem;
+ max-height: 50rem;
+ height: 42rem;
+ border-radius: 1rem;
+ justify-content: center;
+ align-items: center;
+ display: block;
+}
+
+.imagen1 {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.text {
+  margin: 2rem;
+  text-align: center;  
+}
+
+.plancard {
+  background-color: hsl(225, 100%, 94%, 25%);
+  border-radius: 1rem;
+  padding: 2rem;
+  max-height: 7rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: block;
+}
+
+.imagen2 {
+  align-items: left, center;
+  margin-left: -0.75rem;
+}
+
+.text2 {
+  font-size: 16px;
+  text-align: center;
+  margin-left: -6rem;
+  padding: auto;
+  margin-top: -3rem;
+}
+
+.titleanual {
+  font-size: 16px;
+}
+
+.text2 p {
+  margin-top: -0.05rem;
+}
+
+.textchange {
+  color: hsl(245, 75%, 52%);
+  text-align: right;
+  padding-bottom: 2rem;
+  margin-top: -2rem;
+  font-weight: 900;
+}
+
+.bottoncta {
+  display: block;
+  color:aliceblue;
+  background-color: hsl(245, 75%, 52%);
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 375px;
+  box-shadow: 0rem 1rem 2rem hsl(245, 75%, 52%, 30%);
+  padding: 15px 0;
+  margin: 15px, 0;
+  margin-top: 225px;
+}
+
+.bottoncancel {
+  display: block;
+  align-items: center;
+  text-decoration-line: none;
+  font-weight: 900;
+  margin-top: 80px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin-left: 235px;
+}
